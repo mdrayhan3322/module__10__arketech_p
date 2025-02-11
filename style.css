@@ -98,7 +98,7 @@ main > section{
 
 
 /*---------------------- main style start -------------------- */
-   /* main secton one start  */
+   /*------------------------- main secton one start --------------------- */
 
     .teams{
     align-items:center;
@@ -119,7 +119,92 @@ main > section{
     .quick-list{
         font-weight:500;
     }
-    /* main secton one end */
+    /*---------------------------- main secton one end ------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*----------------------- main section tow(2) start ------------------ */
+    .features{
+       
+        border:1px solid black;
+        gap:140px;
+    }
+    #featurees-one{
+        border:1px solid blue;
+    
+    }
+    #feature-sectio-title{
+        border-left:5px solid #FF900E;
+        padding-left:20px;
+       
+    }
+    .feature-card{
+        padding:20px;
+        box-shadow:0 4px 30px 0 rgba(0,0,0,106);
+        margin-top:0px;
+        margin-bottom:0px;
+        border-radius:8px;
+   
+    
+
+    }
+    .feature-card ,.feature-title{
+     font-weight:600;
+     font-size:1.2rem;
+     margin-top:0;
+     margin-bottom:0;
+    }
+
+
+
+    #experience-badge{
+        padding:45px 42px;
+        font-size: 1.5rem;
+        font-weight:500;
+        margin-left:-100px;
+       
+
+    }
+    #experience-year{
+        font-size:4rem;
+        font-weight:700;
+    }
+    .featured-architect img{
+        width:100%;
+
+    }
+    /* .feature-img{
+        width:100%;
+        height:100%;
+    } */
+
+    /*----------------------- main section tow(2) ---------------------  end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* ------------ main section 3 start------- */
     .fact-description{
@@ -178,6 +263,7 @@ main > section{
 @media screen and (max-width:576px){
     .navbar, 
     .nav-links,
+    .features,
     .teams{
         flex-direction:column;
     }
@@ -200,11 +286,17 @@ main > section{
        
      
     }
+    #experience-badge{
+        margin-top:20px;
+        margin-left:1px;
+        padding:45px 38px;
+
+    }
 }
 
 /* medium size device responssive */
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams,   .features{
         flex-direction:column;
     }
     .our-features{
@@ -214,5 +306,10 @@ main > section{
         grid-template-columns:repeat(2, 1fr);
         gap:50px;
         justify-items:center;
+    }
+    #experience-badge{
+        margin-top:20px;
+        margin-left:20px;
+
     }
 }
