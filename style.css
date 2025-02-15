@@ -138,11 +138,11 @@ main > section{
     /*----------------------- main section tow(2) start ------------------ */
     .features{
        
-        border:1px solid black;
+        /* border:1px solid black; */
         gap:140px;
     }
     #featurees-one{
-        border:1px solid blue;
+        /* border:1px solid blue; */
     
     }
     #feature-sectio-title{
